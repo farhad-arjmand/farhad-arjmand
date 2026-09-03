@@ -1,36 +1,40 @@
+<div align="center">
+
 # Farhad Arjmand
 
-**CTO · Engineering Leader · Backend & Platform Architect**
+### CTO · VP / Head of Engineering · Backend & Platform Architect
 
-I build engineering teams and software platforms from zero to production and through scale-up. My background combines executive technology leadership with hands-on backend architecture, product delivery, and cross-functional engineering management.
+[LinkedIn](https://www.linkedin.com/in/farhadarjmand/) · [Email](mailto:farhadarjmand@gmail.com) · Tehran, Iran
 
-I have led teams of up to approximately 50 people across backend, frontend, mobile, DevOps, QA, product, and technical leadership.
+Open to remote and relocation-supported leadership or senior hands-on opportunities
 
-## What I focus on
+</div>
 
-- Technology strategy, engineering organization design, and delivery leadership
-- Scalable backend, distributed systems, APIs, and platform architecture
-- Cloud-native delivery, reliability, observability, and engineering effectiveness
-- AI/LLM-enabled products and modern AI-assisted software development
-- Hiring, mentoring, technical standards, and growing engineering leaders
+## Executive profile
 
-## Core technologies
+Hands-on technology executive and software architect with experience spanning CTO, CEO, engineering leadership, and backend engineering roles. I build teams and platforms from zero to production, then guide them through scale-up with clear technical strategy, pragmatic architecture, and disciplined delivery.
+
+- Built and led multidisciplinary organizations of up to approximately 50 people
+- Managed backend, frontend, mobile, DevOps, QA, product, and technical-lead functions
+- Balanced executive ownership with hands-on architecture and engineering decisions
+- Introduced scalable delivery practices, technical standards, mentoring, and AI-assisted development workflows
+
+## Engineering focus
+
+- Technology strategy, engineering organization design, hiring, and leadership development
+- Distributed backend systems, APIs, microservices, and event-driven architecture
+- Cloud platforms, reliability, observability, CI/CD, and engineering effectiveness
+- AI/LLM product integration, RAG, agents, embeddings, and vector search
+- Product delivery across web, mobile, and operational platforms
+
+## Technology stack
 
 | Area | Technologies |
 | --- | --- |
 | Languages & backend | TypeScript, JavaScript, Node.js, NestJS, Go, PHP, Laravel |
-| Data & search | PostgreSQL, MySQL, MongoDB, Cassandra, Redis, Elasticsearch, Vector Databases |
+| Data, cache & search | PostgreSQL, MySQL, MongoDB, Cassandra, Redis, Elasticsearch, Vector Databases |
 | Cloud & platform | AWS, Docker, Kubernetes, CI/CD, Microservices, Event-Driven Architecture |
 | Web & mobile | Vue.js, React, Next.js, React Native, Flutter |
-| AI engineering | LLM integration, RAG, AI agents, embeddings, AI-assisted development workflows |
+| AI engineering | LLM integration, RAG, AI agents, embeddings, AI-assisted software delivery |
 
-## Private production work
-
-Most of my commercial and production engineering work is kept in private repositories to protect company and client intellectual property. GitHub therefore shows the activity count without exposing private repository names, code, or organizational details.
-
-## Connect
-
-- [LinkedIn](https://www.linkedin.com/in/farhadarjmand/)
-- [Email](mailto:farhadarjmand@gmail.com)
-
-Open to CTO, VP/Head of Engineering, Engineering Leadership, Backend Architecture, and senior hands-on backend opportunities—remote or relocation-supported.
+> Most commercial and production work is intentionally kept in private repositories to protect company and client intellectual property. The contribution graph includes anonymized private activity without exposing repository names, code, or organization details.
