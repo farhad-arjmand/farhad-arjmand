@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://farhad-arjmand.github.io/farhad-arjmand/sitemap.xml
