@@ -1,51 +1,30 @@
-<div align="center">
-
 # Farhad Arjmand
 
-### Hands-on CTO · VP / Head of Engineering · Backend & Platform Architect
+Backend engineer and technology leader based in Tehran.
 
 [Portfolio](https://farhad-arjmand.github.io/farhad-arjmand/) · [LinkedIn](https://www.linkedin.com/in/farhadarjmand/) · [GitLab](https://gitlab.com/farhadarjmand) · [Email](mailto:farhadarjmand@gmail.com) · Tehran, Iran
 
-Open to CTO, engineering leadership, backend architecture, and senior hands-on opportunities
+I build backend systems with Node.js, NestJS, PHP and Go. I've also worked as a CTO, CEO and team lead, and have been building software since 2006.
 
-</div>
+At Mirorim, I built the team from the start and took on CEO, CTO and team-lead responsibilities at different stages. The wider team grew to around 50 people across engineering, product and related functions. At MOM, I assembled the engineering team and worked on healthcare software as both a developer and CTO.
 
-## Executive profile
+I still work on code and architecture. My work also includes hiring, reviewing code and helping backend, frontend and mobile teams plan and release software.
 
-Hands-on technology leader and backend architect with experience as a CTO, CEO, team lead, and backend engineer. I build teams and software platforms from the ground up, connecting business priorities with architecture, engineering decisions, and product delivery.
+## Tools I work with
 
-- Built multidisciplinary teams at Mirorim and MOM; grew Mirorim's wider organization to approximately 50 people
-- Led backend, frontend, mobile, and technical-lead teams while remaining involved in architecture and development
-- Worked across technology strategy, hiring, mentoring, software delivery, and AI-assisted development workflows
+For backend development, I mainly use JavaScript/TypeScript, Node.js, NestJS, PHP and Go. My database experience includes PostgreSQL, MySQL, MongoDB, Cassandra, Redis and Elasticsearch. I also work with AWS, Docker, Kubernetes and CI/CD.
 
-## Engineering focus
+I use LLMs, retrieval and vector search in software projects, and AI coding tools during development. Code review and testing remain part of that process.
 
-- **Engineering leadership:** technology strategy, team building, mentoring, technical standards, and delivery
-- **Backend & platform:** system architecture, APIs, distributed systems, microservices, performance, and maintainability
-- **AI-enabled software:** LLM integration and AI-assisted engineering workflows
+Backend is my main specialty. I also work with React Native and Flutter and have familiarity with Vue, Nuxt and React.
 
-## Technology stack
+## Public code
 
-| Area | Technologies |
-| --- | --- |
-| Languages & backend | TypeScript, JavaScript, Node.js, NestJS, Go, PHP, Laravel |
-| Data, cache & search | PostgreSQL, MySQL, MongoDB, Cassandra, Redis, Elasticsearch, Vector Databases |
-| Cloud & platform | AWS, Docker, Kubernetes, CI/CD, Microservices, Event-Driven Architecture |
-| Web familiarity | Vue.js, Nuxt.js, React |
-| Mobile | React Native, Flutter |
-| AI engineering | LLM integration, RAG, AI agents, embeddings, vector search, AI-assisted software delivery |
+- [LinkedIn Profile Search](https://github.com/farhad-arjmand/cyberyan-test): a NestJS and Elasticsearch technical sample, with setup instructions and API examples.
+- [Lumen Hash Generator](https://github.com/farhad-arjmand/lumen-hash-generator): an older PHP/Lumen sample from the Laravel 5 era. It is not a current production-ready package.
 
-Backend architecture and engineering leadership are my primary specialties; frontend familiarity supports cross-functional collaboration.
+Most of my commercial work is in private repositories. These are a few public samples, not my full work history.
 
-## Selected public samples
+## Get in touch
 
-- [LinkedIn Profile Search](https://github.com/farhad-arjmand/cyberyan-test) — a NestJS and Elasticsearch technical sample with documented setup and API usage.
-- [Lumen Hash Generator](https://github.com/farhad-arjmand/lumen-hash-generator) — a legacy PHP/Lumen sample. Its documentation targets the Laravel 5 era; it is not presented as a current production-ready package.
-
-## Private production work
-
-Most commercial production code remains private to protect company and client intellectual property. Enabled private contribution counts show activity without revealing private source code or repository names. Public samples are not a complete inventory of my work; non-confidential architecture and delivery context can be discussed when appropriate.
-
-## Collaboration
-
-Open to CTO and engineering leadership roles, backend/platform architecture, and senior hands-on backend work. Based in Tehran; available for local or eligible remote full-time and contract opportunities.
+I'm interested in CTO, engineering management, technical lead and senior backend work. I'm based in Tehran and open to local roles or remote teams that can work with someone in Iran, on a full-time or contract basis.
