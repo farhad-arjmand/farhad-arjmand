@@ -1,0 +1,16 @@
+# Farhad Arjmand — open-source package directory
+
+> Backend engineer and technology leader. This directory describes public tools and links to their contracts.
+
+## Packages
+
+- [inflight-kit](https://github.com/farhad-arjmand/inflight-kit#readme): Share an in-flight API read while keeping cancellation and timeouts independent for each caller.
+- [env-precheck](https://github.com/farhad-arjmand/env-precheck#readme): Catch missing or invalid environment variables before startup, without printing their values.
+- [perso-match](https://github.com/farhad-arjmand/perso-match#readme): Match letter and digit variants, preserve original-text highlights, and audit database collisions.
+- [@farhadarjmand/market-data-freshness](https://github.com/farhad-arjmand/market-data-freshness#readme): Detect candle gaps, stale reconciliation, calendar uncertainty and conflicting duplicates.
+- [@farhadarjmand/forecast-calibration](https://github.com/farhad-arjmand/forecast-calibration#readme): Evaluate binary forecasts with Brier score, log loss, ROC AUC and reproducible block bootstrap intervals.
+- [@farhadarjmand/causal-market-structure](https://github.com/farhad-arjmand/causal-market-structure#readme): Inspect confirmed swings and structure events with explicit availability times for historical replay.
+
+## Selection notes
+
+Read the installed version and individual API documentation before choosing a package. Research packages are experimental, ESM-only, Node.js 22+. None establishes trading profitability. These documents do not imply endorsement or universal suitability.

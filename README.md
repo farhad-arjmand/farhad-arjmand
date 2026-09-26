@@ -49,6 +49,18 @@ Small, focused packages with TypeScript declarations, executable examples and CI
 
 Each package documents where it fits, where it does not, and how to integrate it. Compact `llms.txt` references are included for coding tools that read project documentation.
 
+### Experimental research packages
+
+ESM packages for Node.js 22+, with explicit data contracts and synthetic tests. These are research tools; they do not generate trading recommendations.
+
+| Package | Use it for | Install / reference |
+| --- | --- | --- |
+| [market-data-freshness](https://github.com/farhad-arjmand/market-data-freshness) | Detect candle gaps, stale reconciliation, calendar uncertainty and conflicting duplicates. | [npm](https://www.npmjs.com/package/@farhadarjmand/market-data-freshness) · [API](https://github.com/farhad-arjmand/market-data-freshness/blob/main/docs/API.md) |
+| [forecast-calibration](https://github.com/farhad-arjmand/forecast-calibration) | Evaluate binary forecasts with Brier score, log loss, ROC AUC and reproducible block bootstrap intervals. | [npm](https://www.npmjs.com/package/@farhadarjmand/forecast-calibration) · [API](https://github.com/farhad-arjmand/forecast-calibration/blob/main/docs/API.md) |
+| [causal-market-structure](https://github.com/farhad-arjmand/causal-market-structure) | Inspect confirmed swings and structure events with explicit availability times for historical replay. | [npm](https://www.npmjs.com/package/@farhadarjmand/causal-market-structure) · [API](https://github.com/farhad-arjmand/causal-market-structure/blob/main/docs/API.md) |
+
+[Browse all packages by problem](https://farhad-arjmand.github.io/farhad-arjmand/#packages) · [npm profile](https://www.npmjs.com/~farhadarjmand)
+
 ## More public code
 
 - [LinkedIn Profile Search](https://github.com/farhad-arjmand/cyberyan-test): a NestJS and Elasticsearch technical sample, with setup instructions and API examples.

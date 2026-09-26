@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Farhad Arjmand — Hands-on CTO &amp; Engineering Leader</title>
-  <meta name="description" content="Farhad Arjmand is a hands-on CTO, engineering leader, and backend/platform architect with 18+ years of experience building teams and scalable software systems.">
+  <meta name="description" content="Farhad Arjmand is a hands-on CTO, engineering leader, and backend/platform architect building software since 2006. Explore open-source TypeScript tools for backend reliability, Persian/Arabic search and research data.">
   <meta name="keywords" content="Farhad Arjmand, CTO, VP Engineering, Head of Engineering, Engineering Manager, Backend Architect, Platform Architect, Senior Backend Engineer, Node.js, NestJS, Go, PHP, AWS, Kubernetes, AI, LLM, RAG">
   <meta name="author" content="Farhad Arjmand">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -28,12 +28,13 @@
     "url": "https://farhad-arjmand.github.io/farhad-arjmand/",
     "image": "https://avatars.githubusercontent.com/u/1296505?v=4",
     "jobTitle": "Hands-on CTO and Engineering Leader",
-    "description": "Hands-on CTO, engineering leader, and backend/platform architect with 18+ years of experience.",
+    "description": "Hands-on CTO, engineering leader, and backend/platform architect building software since 2006.",
     "email": "mailto:farhadarjmand@gmail.com",
     "sameAs": [
       "https://github.com/farhad-arjmand",
       "https://www.linkedin.com/in/farhadarjmand/",
-      "https://gitlab.com/farhadarjmand"
+      "https://gitlab.com/farhadarjmand",
+      "https://www.npmjs.com/~farhadarjmand"
     ],
     "knowsAbout": [
       "Engineering Leadership", "Backend Architecture", "Platform Engineering",
@@ -65,17 +66,35 @@
     .note { margin-top:18px; padding:22px 26px; border-left:3px solid var(--accent2); color:var(--muted); background:rgba(17,27,46,.5); border-radius:4px 14px 14px 4px; }
     footer { margin-top:28px; color:#7f91ad; font-size:.9rem; text-align:center; }
     @media (max-width:720px) { main{padding:28px 0}.hero{grid-template-columns:1fr;padding:28px}.avatar{grid-row:1;width:96px}.grid{grid-template-columns:1fr} }
+
+    a { color:var(--accent); }
+    a:focus-visible, button:focus-visible { outline:3px solid var(--accent2); outline-offset:5px; }
+    .section-heading { margin:56px 0 20px; }
+    .section-heading h2 { font-size:2rem; letter-spacing:-.035em; }
+    .section-heading p { color:var(--muted); max-width:760px; }
+    .package { display:flex; flex-direction:column; gap:16px; min-width:0; }
+    .package h3 { margin:0; font-size:1.15rem; overflow-wrap:anywhere; }
+    .package .category { color:var(--accent2); font-size:.78rem; letter-spacing:.07em; text-transform:uppercase; }
+    .package pre { background:var(--bg); padding:12px; border-radius:8px; overflow:auto; font-size:.8rem; margin:0; }
+    .package .actions { margin-top:auto; gap:16px; }
+    .package .actions a { min-height:44px; display:inline-flex; align-items:center; }
+    .skip { position:absolute; left:16px; top:-80px; background:var(--panel); padding:12px; z-index:2; }
+    .skip:focus { top:12px; }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
   </style>
 </head>
 <body>
+  <a class="skip" href="#packages">Skip to open-source packages</a>
   <main>
     <section class="hero">
       <div>
         <div class="eyebrow">Engineering leadership · Architecture · Delivery</div>
         <h1>Farhad Arjmand</h1>
-        <p class="lead">Hands-on CTO, VP/Head of Engineering, and backend/platform architect with 18+ years of experience taking products from 0→1 to scale, building teams, and growing Mirorim's multidisciplinary organization to approximately 50 people.</p>
+        <p class="lead">Backend engineer and technology leader, building software since 2006. I build systems with Node.js, NestJS, Go and PHP, and have led engineering teams at Mirorim and MOM. Here are the tools I share in the open.</p>
         <div class="actions">
-          <a class="button primary" href="https://github.com/farhad-arjmand">View GitHub</a>
+          <a class="button primary" href="#packages">Explore packages</a>
+          <a class="button" href="https://github.com/farhad-arjmand">GitHub</a>
+          <a class="button" href="https://www.npmjs.com/~farhadarjmand">npm</a>
           <a class="button" href="https://www.linkedin.com/in/farhadarjmand/">LinkedIn</a>
           <a class="button" href="https://gitlab.com/farhadarjmand">GitLab</a>
           <a class="button" href="mailto:farhadarjmand@gmail.com">Email</a>
@@ -107,7 +126,64 @@
       </article>
     </section>
 
-    <aside class="note">Most commercial production work is intentionally kept in private repositories to protect company and client intellectual property. GitHub displays anonymized private contribution activity without exposing repository names or source code.</aside>
+    <section id="packages" aria-labelledby="packages-title">
+      <div class="section-heading">
+        <div class="eyebrow">Open-source tools</div>
+        <h2 id="packages-title">Find a tool for your next problem.</h2>
+        <p>Six focused TypeScript packages. Each repository includes usage examples, limitations and tests. Start with the problem you need to solve, then check the package's runtime and API contract.</p>
+      </div>
+      <div class="grid"><article class="card package">
+          <span class="category">Backend reliability</span>
+          <h3><a href="https://github.com/farhad-arjmand/inflight-kit">inflight-kit</a></h3>
+          <strong>Concurrent requests</strong>
+          <p>Share an in-flight API read while keeping cancellation and timeouts independent for each caller.</p>
+          <pre><code>npm install inflight-kit</code></pre>
+          <div class="actions"><a href="https://www.npmjs.com/package/inflight-kit" aria-label="inflight-kit on npm">npm ↗</a><a href="https://github.com/farhad-arjmand/inflight-kit#readme" aria-label="inflight-kit documentation">Documentation ↗</a></div>
+        </article>
+<article class="card package">
+          <span class="category">Backend reliability</span>
+          <h3><a href="https://github.com/farhad-arjmand/env-precheck">env-precheck</a></h3>
+          <strong>Deployment configuration</strong>
+          <p>Catch missing or invalid environment variables before startup, without printing their values.</p>
+          <pre><code>npm install env-precheck</code></pre>
+          <div class="actions"><a href="https://www.npmjs.com/package/env-precheck" aria-label="env-precheck on npm">npm ↗</a><a href="https://github.com/farhad-arjmand/env-precheck#readme" aria-label="env-precheck documentation">Documentation ↗</a></div>
+        </article>
+<article class="card package">
+          <span class="category">Internationalization</span>
+          <h3><a href="https://github.com/farhad-arjmand/perso-match">perso-match</a></h3>
+          <strong>Persian &amp; Arabic search</strong>
+          <p>Match letter and digit variants, preserve original-text highlights, and audit database collisions.</p>
+          <pre><code>npm install perso-match</code></pre>
+          <div class="actions"><a href="https://www.npmjs.com/package/perso-match" aria-label="perso-match on npm">npm ↗</a><a href="https://github.com/farhad-arjmand/perso-match#readme" aria-label="perso-match documentation">Documentation ↗</a></div>
+        </article>
+<article class="card package">
+          <span class="category">Experimental research</span>
+          <h3><a href="https://github.com/farhad-arjmand/market-data-freshness">market-data-freshness</a></h3>
+          <strong>Market data quality</strong>
+          <p>Detect candle gaps, stale reconciliation, calendar uncertainty and conflicting duplicates.</p>
+          <pre><code>npm install @farhadarjmand/market-data-freshness</code></pre>
+          <div class="actions"><a href="https://www.npmjs.com/package/@farhadarjmand/market-data-freshness" aria-label="market-data-freshness on npm">npm ↗</a><a href="https://github.com/farhad-arjmand/market-data-freshness#readme" aria-label="market-data-freshness documentation">Documentation ↗</a></div>
+        </article>
+<article class="card package">
+          <span class="category">Experimental research</span>
+          <h3><a href="https://github.com/farhad-arjmand/forecast-calibration">forecast-calibration</a></h3>
+          <strong>Probability evaluation</strong>
+          <p>Evaluate binary forecasts with Brier score, log loss, ROC AUC and reproducible block bootstrap intervals.</p>
+          <pre><code>npm install @farhadarjmand/forecast-calibration</code></pre>
+          <div class="actions"><a href="https://www.npmjs.com/package/@farhadarjmand/forecast-calibration" aria-label="forecast-calibration on npm">npm ↗</a><a href="https://github.com/farhad-arjmand/forecast-calibration#readme" aria-label="forecast-calibration documentation">Documentation ↗</a></div>
+        </article>
+<article class="card package">
+          <span class="category">Experimental research</span>
+          <h3><a href="https://github.com/farhad-arjmand/causal-market-structure">causal-market-structure</a></h3>
+          <strong>Point-in-time market structure</strong>
+          <p>Inspect confirmed swings and structure events with explicit availability times for historical replay.</p>
+          <pre><code>npm install @farhadarjmand/causal-market-structure</code></pre>
+          <div class="actions"><a href="https://www.npmjs.com/package/@farhadarjmand/causal-market-structure" aria-label="causal-market-structure on npm">npm ↗</a><a href="https://github.com/farhad-arjmand/causal-market-structure#readme" aria-label="causal-market-structure documentation">Documentation ↗</a></div>
+        </article></div>
+      <p class="note">Research packages are experimental, ESM-only and require Node.js 22+. They inspect supplied data; they do not establish trading profitability. Check the npm version against the repository changelog before adopting a newly documented feature.</p>
+    </section>
+
+    <aside class="note">Most commercial production work is intentionally kept in private repositories to protect company and client intellectual property.</aside>
     <footer>Open to CTO, VP/Head of Engineering, Engineering Manager, Backend Architect, and senior backend/platform opportunities.</footer>
   </main>
 </body>
