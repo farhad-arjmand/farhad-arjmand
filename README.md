@@ -47,6 +47,14 @@ Most of my commercial work is in private repositories. These are a few public sa
 ## 📊 Around GitHub
 
 <p>
+  <img src="assets/github-stats.svg" width="49%" alt="GitHub statistics from my public profile and public repositories" />
+  <img src="assets/languages.svg" width="49%" alt="Language distribution by bytes in my owned public code repositories" />
+</p>
+
+<sub>Language percentages describe public code, not proficiency. Forks and this profile repository are excluded. Contributions follow the public profile calendar; indexed commits and pull requests cover public repositories only.</sub>
+
+
+<p>
   <a href="https://github.com/farhad-arjmand?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ffarhad-arjmand&amp;query=%24.public_repos&amp;label=Public%20repositories&amp;style=for-the-badge&amp;color=0d9488&amp;logo=github" alt="Public repository count" /></a>
   <a href="https://github.com/farhad-arjmand?tab=followers"><img src="https://img.shields.io/github/followers/farhad-arjmand?style=for-the-badge&amp;label=GitHub%20followers&amp;color=7c3aed" alt="GitHub followers" /></a>
   <img src="https://img.shields.io/badge/On%20GitHub%20since-2011-334155?style=for-the-badge" alt="On GitHub since 2011" />
@@ -57,3 +65,14 @@ Most of my commercial work is in private repositories. These are a few public sa
 ## 🤝 Get in touch
 
 I'm interested in CTO, engineering management, technical lead and senior backend work. I'm based in Tehran and open to local roles or remote teams that can work with someone in Iran, on a full-time or contract basis.
+
+
+## 🐍 Contribution snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
+  <img alt="An animated snake following my GitHub contribution calendar" src="assets/github-snake.svg" width="100%" />
+</picture>
+
+<sub>Visuals refresh daily with GitHub Actions. Snake animation powered by <a href="https://github.com/Platane/snk">Platane/snk</a>.</sub>

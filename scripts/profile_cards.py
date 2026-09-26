@@ -9,11 +9,11 @@ import urllib.request
 
 USER = 'farhad-arjmand'
 
-def api(path):
+def api(path, payload=None):
     headers = {'Accept': 'application/vnd.github+json', 'User-Agent': 'public-profile-cards'}
     if os.environ.get('GH_TOKEN'):
         headers['Authorization'] = 'Bearer ' + os.environ['GH_TOKEN']
-    with urllib.request.urlopen(urllib.request.Request('https://api.github.com/' + path, headers=headers), timeout=30) as response:
+    with urllib.request.urlopen(urllib.request.Request('https://api.github.com/' + path, headers=headers, data=json.dumps(payload).encode() if payload is not None else None), timeout=30) as response:
         return json.load(response)
 
 repos = []
@@ -36,6 +36,9 @@ for repo in owned:
     for language, size in api(f'repos/{USER}/{repo["name"]}/languages').items():
         languages[language] = languages.get(language, 0) + size
 
+calendar = api('graphql', {'query': '{user(login:"farhad-arjmand"){contributionsCollection{contributionCalendar{totalContributions}}}}'})
+contributions = calendar['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions']
+
 stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
 
 def text(x,y,value,size=16,color='#a5f3fc',weight='400'):
@@ -43,8 +46,8 @@ def text(x,y,value,size=16,color='#a5f3fc',weight='400'):
 def card(title, content, desc):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="495" height="245" viewBox="0 0 495 245" role="img"><title>{html.escape(title)}</title><desc>{html.escape(desc)}</desc><rect x="1" y="1" width="493" height="243" rx="14" fill="#141321" stroke="#40445c"/>' + text(24,38,title,22,'#ff4d9d','700') + content + text(24,226,'Public data · updated '+stamp,11,'#94a3b8') + '</svg>'
 
-rows = [('Stars on owned public repos', sum(r['stargazers_count'] for r in owned)), ('Indexed public commits',commits['total_count']),('Public pull requests',prs['total_count']),('Public repositories',len(repos))]
-stats = ''.join(text(25,77+i*36,label,16) + text(427,77+i*36,value,21,'#e2e8f0','700') for i,(label,value) in enumerate(rows))
+rows = [('Contributions (last year)', contributions), ('Stars on owned public repos', sum(r['stargazers_count'] for r in owned)), ('Indexed public commits',commits['total_count']),('Public pull requests',prs['total_count']),('Public repositories',len(repos))]
+stats = ''.join(text(25,73+i*30,label,16) + text(427,73+i*30,value,21,'#e2e8f0','700') for i,(label,value) in enumerate(rows))
 colors={'PHP':'#a78bfa','TypeScript':'#3178c6','JavaScript':'#f1e05a','Vue':'#41b883','HTML':'#e34c26','CSS':'#b291f1','Dockerfile':'#38bdf8','Go':'#00add8'}
 ordered=sorted(languages.items(), key=lambda x:x[1],reverse=True)
 if len(ordered)>6:
