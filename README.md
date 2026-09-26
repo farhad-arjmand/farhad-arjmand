@@ -37,10 +37,22 @@ I use LLMs, retrieval and vector search in software projects, and AI coding tool
 
 Backend is my main specialty. I also work with React Native and Flutter and have familiarity with Vue, Nuxt and React.
 
-## 🧩 Public code
+## 🧩 Open-source packages
+
+Small, focused packages with TypeScript declarations, executable examples and CI:
+
+| Package | Problem it addresses | Install / reference |
+| --- | --- | --- |
+| [inflight-kit](https://github.com/farhad-arjmand/inflight-kit) | Duplicate concurrent API reads, with independent cancellation and deadlines | [npm](https://www.npmjs.com/package/inflight-kit) · [Integration](https://github.com/farhad-arjmand/inflight-kit/blob/main/docs/integration.md) |
+| [env-precheck](https://github.com/farhad-arjmand/env-precheck) | Missing or invalid deployment configuration, without printing values | [npm](https://www.npmjs.com/package/env-precheck) · [Integration](https://github.com/farhad-arjmand/env-precheck/blob/main/docs/integration.md) |
+| [perso-match](https://github.com/farhad-arjmand/perso-match) | Persian/Arabic search mismatches, original-text highlights and database collision review | [npm](https://www.npmjs.com/package/perso-match) · [فارسی](https://github.com/farhad-arjmand/perso-match/blob/main/README.fa.md) · [العربية](https://github.com/farhad-arjmand/perso-match/blob/main/README.ar.md) |
+
+Each package documents where it fits, where it does not, and how to integrate it. Compact `llms.txt` references are included for coding tools that read project documentation.
+
+## More public code
 
 - [LinkedIn Profile Search](https://github.com/farhad-arjmand/cyberyan-test): a NestJS and Elasticsearch technical sample, with setup instructions and API examples.
-- [Lumen Hash Generator](https://github.com/farhad-arjmand/lumen-hash-generator): an older PHP/Lumen sample from the Laravel 5 era. It is not a current production-ready package.
+- [Lumen Hash Generator](https://github.com/farhad-arjmand/lumen-hash-generator): a PHP 8.2+ library for secure token generation and hashed token verification, rewritten in version 2.
 
 Most of my commercial work is in private repositories. These are a few public samples, not my full work history.
 
